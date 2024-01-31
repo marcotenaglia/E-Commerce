@@ -38,7 +38,7 @@ body {
     width: 80%;
     height: 80%;
     max-width: 100px;
-    border: solid rgb(186, 70, 17);
+    border: solid rgb(17, 20, 186);
     padding: 2em;
     background-color: white;
     margin: 0.8em;
@@ -46,7 +46,7 @@ body {
 
 .imagen-carrito {
     width: 80%;
-    border: solid rgb(186, 70, 17);
+    border: solid rgb(42, 17, 186);
     padding: 5%;
     background-color: white;
     margin: 5%;
@@ -63,7 +63,7 @@ body {
 
 
 .btns {
-    background-color: rgb(186, 70, 17);
+    background-color: rgb(70, 17, 186);
     border: none;
     color: rgb(236, 229, 229);
     padding: 11.4px;
@@ -73,7 +73,7 @@ body {
 }
 
 .btns:hover {
-    background-color: rgb(209, 91, 36);
+    background-color: rgb(88, 36, 209);
     color: white;
     transition: 0.3s;
 }
@@ -103,7 +103,7 @@ input[type=number]::-webkit-inner-spin-button {
     align-items: center;
     font-size: 1.6rem;
     color: white;
-    border: solid rgb(186, 70, 17);
+    border: solid rgb(51, 17, 186);
     max-width: 400px;
     padding: .5em;
     border-radius: 10px;
@@ -127,6 +127,6 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .swa12-container {
-    background-color: red;
+    background-color: rgb(76, 0, 255);
 }
 
