@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(10, 7, 14);
+    background-color: rgb(25, 5, 52);
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
 }
@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    margin-top: 2em;
 }
 
 .caja-producto {
@@ -32,24 +33,28 @@ body {
     padding: 1em;
     margin: 0.8em;
     min-width: 12em;
+    border-radius: 10px;
 }
 
 .imagen {
     width: 80%;
     height: 80%;
     max-width: 100px;
-    border: solid rgb(17, 20, 186);
+    border: solid rgb(0, 0, 0) 1px;
     padding: 2em;
     background-color: white;
     margin: 0.8em;
+    border-radius: 10px;
 }
 
 .imagen-carrito {
     width: 80%;
-    border: solid rgb(42, 17, 186);
     padding: 5%;
+    border: solid rgb(0, 0, 0) 1px;
+
     background-color: white;
     margin: 5%;
+    border-radius: 10px;
 }
 
 .div-carrito {
@@ -70,6 +75,7 @@ body {
     text-align: center;
     margin: 0.3em;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
 }
 
 .btns:hover {
@@ -85,13 +91,24 @@ body {
     justify-content: center;
     margin: 2rem;
     padding: 2rem;
-    border: solid rgb(177, 172, 172);
+    background-color: rgb(16, 7, 30);
     border-radius: 10px;
     width: 10%;
+    
 }
 
 input[type=number]::-webkit-inner-spin-button {
     opacity: 1
+    
+}
+
+.inputs {
+    border-radius: 2px;
+    border: none;
+    width: 5em;
+    height: 2em;
+    margin: 2em;
+    background-color: rgb(226, 227, 227);
 }
 
 .total {
@@ -103,9 +120,9 @@ input[type=number]::-webkit-inner-spin-button {
     align-items: center;
     font-size: 1.6rem;
     color: white;
-    border: solid rgb(51, 17, 186);
     max-width: 400px;
     padding: .5em;
+    background-color: rgb(16, 7, 30);
     border-radius: 10px;
 }
 
@@ -116,6 +133,8 @@ input[type=number]::-webkit-inner-spin-button {
 .div-total {
     display: flex;
     justify-content: center;
+    margin-bottom: 5em;
+    margin-top: 3em;
 }
 
 .caja-total {
